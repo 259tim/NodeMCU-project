@@ -7,8 +7,7 @@ It uses an LCD to display temperature and humidity as well as having a motion se
 
 For our project it was also made to post this data to a webserver, but if you are running the system on your own this is obviously not possible.
 
-If you want details on how I built this project and how you could build your own, please check out this write-up I made that is now conveniently uploaded to Google Drive: 
-
+If you want details on how I built this project and how you could build your own, please check out the write-up here:
 ## Full Setup instructions:
 
 Disclaimer: This project was setup over a longer time and I might not remember all details at the time of this write-up, also, please test sensors and parts one by one to make sure they actually work. Trying to test all of them at once while everything is hooked up is *not* recommended.
