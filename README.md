@@ -7,8 +7,10 @@ For our project it was also made to post this data to a webserver, but if you ar
 
 If you want details on how I built this project and how you could build your own, please check out this write-up I made that is now conveniently uploaded to Google Drive: 
 
-Parts list:
+Setup instructions:
 ===========
+
+## Parts list
 
 The weather station requires a lot of parts, this section has a list of
 them as well as their purpose.
