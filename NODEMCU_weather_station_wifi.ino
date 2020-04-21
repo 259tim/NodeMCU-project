@@ -8,8 +8,8 @@
 
 // define WiFi connection
 #ifndef STASSID
-#define STASSID "jacob5"
-#define STAPSK  "Timluc0101"
+#define STASSID "SSIDhere"
+#define STAPSK  "PASShere"
 #endif
 
 // Construct an LCD object and pass it the 
@@ -157,10 +157,6 @@ void loop() {
   lcd.setCursor(0,0);
   lcd.print("Temp: ");
   lcd.print(t);      // set characters
-
-//  Serial.print(t);
-//  Serial.print(F("°C "));
-  
   lcd.setCursor(0,1);
   lcd.print("Humidity: ");
   lcd.print(h);
@@ -196,6 +192,7 @@ void Connect_To_Server()
     PostData.concat(h);
     PostData.concat("}");
 
+    // I am aware this contains an API key but the server isn't crucial or online anymore.
     Serial.println("[Sending a post request]");
     client.print(String("POST /api/Measurements/f67daefa-0924-47b6-9702-8fbbc125e007" ) + " HTTP/1.1\r\n" +
                  "Host: " + group + "\r\n" +
