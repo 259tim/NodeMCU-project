@@ -76,7 +76,6 @@ holes on the LCD, first solder the far left and right pins to ensure it
 stays in place and then solder the rest of the pins.\
 After doing this we can now start with the connection of the LCD and the
 NodeMCU.\
-\
 
 Hook up the four LCD pins as follows (using male to female cables):
 
